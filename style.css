@@ -1,0 +1,30 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  /* Background Romantic Pink Love Gradient */
+  background: radial-gradient(circle at top left, #831843, #500724, #0f172a);
+  color: #fff1f2;
+  min-height: 100vh;
+}
+
+.glass-card {
+  background: rgba(45, 10, 30, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(244, 114, 182, 0.25);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.5),
+    0 0 20px rgba(244, 114, 182, 0.1);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(244, 114, 182, 0.5);
+  border-radius: 9999px;
+}
